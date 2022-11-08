@@ -13,7 +13,6 @@ class Futbolista(Persona,Deportista):
         
         Futbolista.listaFutbolistas.append(self)
 
-    #gett 
     def getGolesMarcados(self):
         return self._golesMarcados
 
@@ -24,7 +23,6 @@ class Futbolista(Persona,Deportista):
     def getPiernaHabil(self):
         return self._piernaHabil
 
-    #sett
     def setGolesMarcados(self,x):
         self._golesMarcados = x
 
