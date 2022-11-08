@@ -5,7 +5,6 @@ class Persona():
         self._altura = altura
         self._sexo = sexo
 
-#metodos get 
     def getNombre(self):
         return self._nombre
    
@@ -18,7 +17,6 @@ class Persona():
     def getSexo(self):
         return self._sexo
 
-#metodos set 
 
     def setNombre(self,nombre):
         self._nombre = nombre
